@@ -1,0 +1,117 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/music.jpg);
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 420px;
+    background-color:transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color:#fff;
+    padding: 30px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter:blur(3px);
+}
+
+.container h1{
+    display: flex;
+    color:#84b6f4;
+    font-size: 36px;
+    text-align: center;
+    gap: 45px;
+}
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin:30px 0px;
+    position: relative; /*mudar a posição do elemento de acordo com a necessidade*/
+
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 40px;
+    outline: none;
+    color:#FFF;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color:#c4dafa;   
+}
+
+.input-box i{
+    position:  absolute; /*mudar a posição do item com as direções*/
+    right:20px;
+    top:15px;
+    font-size: 20px;
+    color: #c4dafa;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.remember-forgot label input{
+    margin-right: 5px;
+}
+
+.remember-forgot a{
+    text-decoration: none;
+    color:#FFF
+}
+
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    width:100%;
+    height:50px;
+    background-color:transparent;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #FFF;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top:20px;
+}
+
+.login:hover{
+    background-color: transparent;
+    transition: 0.5s;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #c4dafa;
+    
+}
+
+.register-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+
+.register-link a{
+    text-decoration: none;
+    color:#FFF;
+    font-weight: 600px;
+}
